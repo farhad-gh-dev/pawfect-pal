@@ -15,8 +15,7 @@ export const NavLink: React.FC<NavLinkProps> = ({
     <a
       href={href}
       className={`
-        text-md font-[450] transition-colors text-primary
-        hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary
+        text-md font-[450] transition-colors text-gray-600 hover:text-black
         ${className}
       `}
     >
